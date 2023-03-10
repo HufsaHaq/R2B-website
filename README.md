@@ -1,2 +1,2 @@
 # r2b-website
-Basic responsive about us page for Rags2Bags
+Basic responsive 'About us' page for Rags2Bags - YE team 2023
