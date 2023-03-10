@@ -1,0 +1,124 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+</style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+}
+
+body {
+    background: url('./images/background.png');
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position:relative;
+    font-family:'Shadows Into Light';
+}
+.container {
+    width : 100%;
+    height: 100vh;
+    margin : 0 auto;
+    padding: 0 3rem;
+    margin-top: 4rem;
+    text-align: justify;
+}
+
+.navbar{
+    width : 100%;
+    height: 15vh;
+    margin : auto;
+    display: flex;
+    align-items:center;
+}
+
+.logo{
+    width: 160px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    padding-left: 60x;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+
+ul{
+    color: #6a7199;
+    font-size: 20px;
+    line-height: 5rem;
+    margin-bottom: 5rem;
+}
+
+nav ul li a{
+    color: #6a7199;
+    font-size: 20px;
+    line-height: 5rem;
+    text-decoration: none;
+}
+
+h1 {
+    color: #232d60;
+    font-size: 60px;
+    font-weight: 100;
+    letter-spacing: 6px;
+    margin-top: 24px;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    color: #00000;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+h3 {
+    color: #111;
+    font-size: 3rem;
+    font-weight: 200;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.image {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+p {
+    color: #6a7199;
+    font-size: 20px;
+    line-height: 5rem;
+    margin-bottom: 5rem;
+}
+
+
+.btn {
+  background: linear-gradient(45deg, #80adfe , #ffaacd);
+  border-radius: 6px;
+  color: #000;
+  box-shadow: 3px 8px 22px rgba(94,28,68,0.15)
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  display: grid;
+  font-size: 24px;
+  margin: auto
+}
+
+.btn:hover {
+    background:#0eaaf0;
+}
